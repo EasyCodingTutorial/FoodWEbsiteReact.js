@@ -1,0 +1,30 @@
+ .mainLogoNavbar {
+     display: flex;
+     justify-content: center;
+ }
+
+ .mainLogoNavbar img {
+     height: 100px;
+     width: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin: 10px auto;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: center;
+     padding: 5px;
+     background: #000;
+     box-shadow: var(--boxshadow);
+ }
+
+ .nav-link {
+     margin-right: 20px;
+     color: #fff !important;
+ }
+
+ .nav-link:hover {
+     color: var(--main) !important;
+     font-weight: 700;
+ }

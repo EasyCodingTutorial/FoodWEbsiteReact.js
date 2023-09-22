@@ -1,0 +1,28 @@
+.box {
+    box-shadow: var(--boxshadow);
+    margin-bottom: 50px;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box .boxContent {
+    padding: 20px;
+}
+
+.box .boxContent h6 {
+    font-weight: 800;
+}
+
+.box .boxContent h5 {
+    font-size: 12px;
+    font-weight: 900;
+}

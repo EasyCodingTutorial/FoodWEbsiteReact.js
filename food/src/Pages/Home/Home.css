@@ -1,0 +1,154 @@
+.Home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home .MainBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.MainBox img {
+    height: 600px !important;
+    width: 100%;
+    object-fit: cover;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.MainBox:hover img {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.MainBox .boxContent {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #4d3e3e 20%, #685151 50%, #000);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.MainBox:hover .boxContent {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.MainBox .boxContent h6 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* For Popular Desserts */
+.PopularDessert {
+    margin: 100px auto;
+}
+
+/* For Popular Desserts */
+
+/* For Newsletter */
+.newsLetter {
+    margin-bottom: 150px;
+}
+
+.newsLetter .boxNews {
+    display: flex;
+    justify-content: space-between;
+    background: #ccc;
+    padding: 20px;
+}
+
+.newsLetter .boxNews h6 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.newsLetter .boxNews div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsLetter .boxNews input {
+    width: 600px;
+    height: 40px;
+}
+
+.newsLetter .boxNews .btn {
+    width: 100px;
+    height: 40px;
+    background: var(--main);
+    color: #fff;
+}
+
+/* For Newsletter */
+
+
+/* For custom */
+.custom {
+    margin-bottom: 100px;
+}
+
+
+.custom .col-sm-4 {
+    margin-top: 120px;
+}
+
+.custom .col-sm-4 .boxCustom {
+    box-shadow: var(--boxshadow);
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.custom .col-sm-4 .boxCustom h6 {
+    background: var(--main);
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.custom .col-sm-4 .boxCustom img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.custom .col-sm-4 .boxCustom p {
+    font-size: 12px;
+    margin: 20px auto;
+}
+
+
+.forBreakLunchDinner img {
+    height: 100% !important;
+    width: 100% !important;
+    box-shadow: var(--boxshadow);
+    border-radius: 0px !important;
+}
+
+.forBreakLunchDinner div {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.forBreakLunchDinner .boxContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.forBreakLunchDinner .boxContent h6 {
+    font-weight: 800;
+}
+
+
+/* For custom */

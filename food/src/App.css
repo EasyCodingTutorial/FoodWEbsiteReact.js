@@ -1,0 +1,37 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+:root {
+  --main: #0022ff;
+  --boxshadow: 15px 15px 15px -10px rgba(50, 44, 44, 0.6),
+    inset 10px 10px 10px -10px rgba(60, 54, 54, 0.6);
+  --boxshadowHover: 15px 15px 15px -10px rgba(18, 13, 161, 0.6),
+    inset 10px 10px 10px -10px rgba(7, 10, 199, 0.911);
+}
+
+* {
+  font-family: "Besley", serif;
+  transition: 0.2s ease-in;
+}
+
+*::selection {
+  background: var(--main);
+  color: #fff;
+}
+
+body {
+  background: linear-gradient(to bottom, #dcd4d4, #f2f0f0, #ddd9d9);
+}
+
+/* For Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
